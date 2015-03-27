@@ -1,0 +1,27 @@
+Body {
+	
+}
+/*this a comment*/
+h1 {
+	color: orangered;
+	text-align: center
+}
+h2 {
+	color: crimson;
+	text-align: left
+}
+h3 {
+	color: brown;
+	text-align: left
+}
+p {
+	color: cornflowerblue;
+	text-align: justify
+}
+/*this is a class*/
+#paragraph-1 {
+	background-color: aquamarine;
+}
+#paragraph-2 {
+	background-color: black;
+}
