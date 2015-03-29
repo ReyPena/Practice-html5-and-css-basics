@@ -1,27 +1,35 @@
 Body {
-	
+	background-color: azure
 }
 /*this a comment*/
 h1 {
-	color: orangered;
+	background-color: darkseagreen;
 	text-align: center
 }
 h2 {
-	color: crimson;
+	background-color: red;
 	text-align: left
 }
 h3 {
-	color: brown;
+	background-color: red;
 	text-align: left
 }
 p {
-	color: cornflowerblue;
+	color: khaki;
 	text-align: justify
 }
-/*this is a class*/
+/*this is a id selector*/
 #paragraph-1 {
-	background-color: aquamarine;
+	background-color: navy;
+}
+#paragraph-1 .second {
+	color: yellow;
 }
 #paragraph-2 {
 	background-color: black;
+}
+/*this is a class*/
+.second {
+	background-color: chocolate;
+	font-size: 15px
 }
