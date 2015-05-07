@@ -1,0 +1,42 @@
+Body {
+	background-color: azure;
+    font-family: Helvetica, Arial, Sans-Serif;
+}
+/*this a comment*/
+h1 {
+	background-color: darkseagreen;
+	text-align: center;
+    font-style: oblique;
+    color: darkgray;
+}
+h2 {
+	background-color: red;
+	text-align: left;
+    font-weight: bolder;
+}
+h3 {
+	background-color: red;
+	text-align: left;
+    vertical-align: middle; /*this is a vertical align code*/
+}
+p {
+	color: khaki;
+	text-align: justify;
+    vertical-align: bottom;
+}
+    
+/*this is a id selector*/
+#paragraph-1 {
+	background-color: navy;
+}
+#paragraph-1 .second {
+	color: yellow;
+}
+#paragraph-2 {
+	background-color: black;
+}
+/*this is a class*/
+.second {
+	background-color: chocolate;
+	font-size: 30px;
+}
