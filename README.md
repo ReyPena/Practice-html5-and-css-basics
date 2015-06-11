@@ -1,2 +1,2 @@
 # html5-and-css-project
-Project showing basic coding using HTML5 and CSS &reg; .
+Project studying basic coding using HTML5 and CSS &reg; .
