@@ -4,15 +4,20 @@ Body {
 }
 /*this a comment*/
 h1 {
-	background-color: darkseagreen;
+	background-image: url("../img/background-1.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: ;
 	text-align: center;
     font-style: oblique;
-    color: darkgray;
+    color: black;
+    text-shadow: 5px 5px 5px black; /*1-position 2-vertical 3-blurr*/
 }
 h2 {
 	background-color: red;
 	text-align: left;
     font-weight: bolder;
+    text-shadow: 0px 0px 5px yellow;
 }
 h3 {
 	background-color: red;
@@ -20,23 +25,47 @@ h3 {
     vertical-align: middle; /*this is a vertical align code*/
 }
 p {
-	color: khaki;
+	color: blue;
 	text-align: justify;
     vertical-align: bottom;
+    text-indent: 50px; /*this is margen text*/
+    text-transform: capitalize;
 }
     
 /*this is a id selector*/
 #paragraph-1 {
 	background-color: navy;
+    text-decoration: overline;
+    overflow: scroll;
+    border: 5px dotted white;
+    width: 900px;
+    height: 300px; /*there is a max and min height and width*/
 }
 #paragraph-1 .second {
 	color: yellow;
+    letter-spacing: inherit;
+    border-style: dashed;
 }
 #paragraph-2 {
 	background-color: black;
+    letter-spacing: 4px;
 }
 /*this is a class*/
 .second {
 	background-color: chocolate;
 	font-size: 30px;
+    word-spacing: 7px
+}
+table{
+    
+    border-collapse: separate;
+    border-spacing: 5px;
+    border-color: green;
+    border-style: dashed;
+    table-layout: fixed;
+    cursor: crosshair;
+}
+a{
+    cursor: crosshair;
+    color: blue;
 }
